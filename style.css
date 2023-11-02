@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*! Nav Bar Styling */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+a {
+  color: black;
+}
+
+.logo h1 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.logo img {
+  width: 50px;
+  height: 32px;
+}
+
+.logo,
+.partNav {
+  display: flex;
+}
+
+.textNav{
+  gap: 75px;
+}
+
+.iconsNav {
+  gap: 45px;
+}
+
+.textNav a {
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.icons img {
+  cursor: pointer;
+}
+
+@media  (max-width: 1200px) {
+  .navBar, .icons {
+    display: none;
+  }
+}
