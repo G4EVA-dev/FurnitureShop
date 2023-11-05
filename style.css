@@ -4,6 +4,7 @@
   box-sizing: 0;
   list-style: none;
   text-decoration: none;
+  font-family: 'popins', sans-serif;
 }
 
 /*! Nav Bar Styling */
@@ -25,7 +26,6 @@ a {
 }
 
 .logo h1 {
-  font-family: Montserrat;
   font-size: 2rem;
   font-weight: 700;
   line-height: normal;
@@ -49,7 +49,6 @@ a {
 }
 
 .textNav a {
-  font-family: Poppins;
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 500;
@@ -59,6 +58,99 @@ a {
 .icons img {
   cursor: pointer;
 }
+
+/* !New Arrival */
+.arrivalWrapper{
+  display: flex;
+  width: 100%;
+  min-height: 95vh;
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  align-items: center;
+}
+.newArrival {
+  width: 550px;
+  height: 350px;
+  margin-right: 100px;
+  margin-top: 100px; 
+  border-radius: 10px;
+  background: #FFF3E3;
+  padding: 50px;
+}
+
+.newArrival p {
+  width: 546px;
+  height: 52px;
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+}
+
+.newArrival h1 {
+  width: 400px;
+  height: 127px;
+  color:  #B88E2F;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px; /* 125% */
+}
+
+.newArrival button {
+  margin-top: 50px;
+  display: inline-flex;
+  padding: 25px 72px;
+  align-items: flex-start;
+  color: #fff;
+  font-weight: 750;
+  background: var(--Primary, #B88E2F);
+  border: none;
+  cursor: pointer;
+}
+
+/* !Browse The Range */
+.browse {
+  width: 1440px;
+  height: 500px;
+  margin-top: 50px;
+  text-align: center;  
+  margin: 50px auto;
+}
+
+.browseText p {
+  color: var(--font-color-1, #666);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.slide caption {
+  color: var(--font-color, #333);
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.slide img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
 
 @media  (max-width: 1200px) {
   .navBar, .icons {
